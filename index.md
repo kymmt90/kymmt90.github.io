@@ -1,6 +1,6 @@
 # About Me
 
-Kōhei Yamamoto is an software engineer at [GMO Pepabo](https://pepabo.com/).
+Kōhei Yamamoto is a software engineer at [GMO Pepabo](https://pepabo.com/).
 
 # Activities
 
