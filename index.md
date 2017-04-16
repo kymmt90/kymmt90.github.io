@@ -10,3 +10,4 @@ Kōhei Yamamoto (山本 浩平) is a software engineer at [GMO Pepabo, Inc.](htt
 - GitHub: [kymmt90](https://github.com/kymmt90)
 - LinkedIn: [Kōhei Yamamoto](https://www.linkedin.com/in/kymmt90)
 - Twitter: [@kymmt90](https://twitter.com/kymmt90)
+- Qiita: [kymmt90](http://qiita.com/kymmt90)
