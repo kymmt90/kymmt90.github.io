@@ -1,6 +1,6 @@
 # About Me
 
-Kōhei Yamamoto (山本 浩平) is a Web application developer at [GMO Pepabo, Inc.](https://pepabo.com/en/) in Tokyo.
+Kōhei Yamamoto (山本 浩平) is a Web application developer.
 
 - [blog.kymmt.com](http://blog.kymmt.com/)
 - [Booklog](http://booklog.jp/users/kymmt90)
