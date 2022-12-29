@@ -7,6 +7,7 @@ Yamamoto Kōhei (山本浩平) is a Web application developer.
 - [Facebook](https://www.facebook.com/kymmt90)
 - [GitHub](https://github.com/kymmt90)
 - [LinkedIn](https://www.linkedin.com/in/kymmt)
+- <a rel="me" href="https://mstdn.jp/@kymmt90">Mastodon</a>
 - [Qiita](http://qiita.com/kymmt90)
-- Speaker Deck ([kymmt90](https://speakerdeck.com/kymmt90), [kymmtchan](https://speakerdeck.com/kymmtchan))
+- [Speaker Deck](https://speakerdeck.com/kymmt90)
 - [Twitter](https://twitter.com/kymmt90)
