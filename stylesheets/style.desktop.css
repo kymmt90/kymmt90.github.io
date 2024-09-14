@@ -1,0 +1,136 @@
+@media screen and (min-width: 64em) {
+
+    h1,
+    h2 {
+        font-size: 2.5rem;
+    }
+
+    h3 {
+        font-size: 2rem;
+    }
+
+    h4 {
+        font-size: 1.75rem;
+        margin-bottom: 0;
+    }
+
+    h1 {
+        margin-bottom: 0;
+    }
+
+    h2 {
+        margin-bottom: 30px;
+    }
+
+    h2:target::before {
+        content: "";
+        display: block;
+        height: 74px;
+        margin-top: -74px;
+        visibility: hidden;
+    }
+
+    header {
+        line-height: 2;
+        align-items: center;
+        padding: 0 60px 0 60px
+    }
+
+    .header-logo {
+        font-size: 1.5rem;
+        font-weight: lighter;
+    }
+
+    .header-nav-menu-item {
+        font-size: 1rem;
+        margin-left: 15px;
+    }
+
+    .header-nav-language {
+        font-size: 1rem;
+        margin-left: 20px;
+    }
+
+    .container {
+        padding: 0 80px;
+    }
+
+    .main-hero {
+        padding-top: 120px;
+    }
+
+    .main-hero-title {
+        margin-bottom: 10px;
+    }
+
+    .main-hero-description {
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+
+    .main-hero-description p {
+        margin-top: 0;
+        margin-bottom: 0;
+        line-height: 2;
+    }
+
+    .main-hero-description-lead {
+        font-size: 1.75rem;
+    }
+
+    .main-hero-description p+p {
+        margin-top: 12px;
+    }
+
+    .main-works {
+        padding: 60px 0;
+    }
+
+    .main-works-writings {
+        display: flex;
+    }
+
+    .main-works-writing-item {
+        margin-right: 100px;
+        width: 50%;
+    }
+
+    .main-works-items {
+        font-size: 1.1rem;
+    }
+
+    .main-works-item {
+        margin-bottom: 20px;
+    }
+
+    .main-works-item dd {
+        line-height: 2;
+    }
+
+    .main-works-item dd+dd {
+        margin-top: 10px;
+    }
+
+    .main-contact {
+        padding: 60px 0 60px;
+    }
+
+    .accounts {
+        font-size: 2.5rem;
+        gap: 30px;
+    }
+
+    footer {
+        font-size: 1.1rem;
+        padding: 60px 0 60px;
+    }
+
+    .footer-nav-menu li+li {
+        margin-left: 15px;
+    }
+
+    .footer-copyright {
+        text-align: center;
+    }
+
+}

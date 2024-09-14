@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/normalize.css@8.0.1/normalize.css">
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <link rel="stylesheet" href="stylesheets/style.mobile.css">
+    <link rel="stylesheet" href="stylesheets/style.tablet.css">
+    <link rel="stylesheet" href="stylesheets/style.desktop.css">
+    <script src="https://kit.fontawesome.com/250768613d.js" crossorigin="anonymous"></script>
+    <title>山本浩平 | ソフトウェアエンジニア</title>
+  </head>
+  <body>
+    <header>
+      <div class="header-logo">
+        <strong><a href="">kymmt.com</a></strong>
+      </div>
+      <nav class="header-nav">
+        <ul class="header-nav-menu">
+          <li class="header-nav-menu-item">
+            <a href="#about">About</a>
+          </li>
+          <li class="header-nav-menu-item">
+            <a href="#works">Works</a>
+          </li>
+          <li class="header-nav-menu-item">
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+        <div class="header-nav-language">
+          <a href="./index.html">English</a>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section id="about" class="main-hero">
+        <div class="container">
+          <h1 class="main-hero-title">山本浩平</h1>
+          <div class="main-hero-description">
+            <p class="main-hero-description-lead">
+              ソフトウェアエンジニア
+            </p>
+            <p>
+              現在は、<a href="https://www.ikyu.co.jp" target="_blank">株式会社一休</a>でプロダクトエンジニアとしてレストラン予約サービスを開発しています。
+            </p>
+            <p>
+              以前は、<a href="https://pepabo.com" target="_blank">GMOペパボ株式会社</a>でプリンシパルエンジニアとしてECサイト構築サービスの技術的課題の解決に従事していました。
+            </p>
+            <p>
+              スクリーンネームは<code>@kymmt</code>もしくは<code>@kymmt90</code>です。
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="main-works">
+        <div class="container">
+          <h2 class="section-title" id="works">Works</h2>
+          <h3>ソフトウェア</h3>
+          <h4>
+            <i class="fa-solid fa-gem main-works-heading-icon"></i>
+            RubyGems
+          </h4>
+          <dl class="main-works-items">
+            <div class="main-works-item">
+              <dt class="main-works-item-name">
+                <a href="https://github.com/kymmt90/schema_conformist" target="_blank">
+                  SchemaConformist
+                </a>
+              </dt>
+              <dd class="main-works-item-description">
+                Railsの結合テスト(integration tests)実行時に、OpenAPIまたはJSON Hyper Schemaで書かれたスキーマと<a href="https://github.com/interagent/committee">Committee</a>を用いてJSONレスポンスを自動でバリデーションします。
+              </dd>
+            </div>
+            <div class="main-works-item">
+              <dt class="main-works-item-name">
+                <a href="https://github.com/kymmt90/hatenablog" target="_blank">
+                  Hatenablog
+                </a>
+              </dt>
+              <dd class="main-works-item-description">
+                はてなブログAtomPub APIのクライアントライブラリです。はてなのOAuth 1.0aアクセストークンを取得するツールも同梱しています。
+              </dd>
+            </div>
+          </dl>
+          <h3>著作</h3>
+          <div class="main-works-writings">
+            <div class="main-works-writing-item">
+              <h4>
+                <i class="fa-solid fa-book-open main-works-heading-icon"></i>
+                書籍
+              </h4>
+              <dl class="main-works-items">
+                <div class="main-works-item">
+                  <dt class="main-works-item-name">
+                    <a href="https://gihyo.jp/book/2024/978-4-297-14403-6" target="_blank">
+                      Rubyコードレシピ集
+                    </a>
+                  </dt>
+                  <dd class="main-works-item-description">
+                    技術評論社, 2024
+                  </dd>
+                  <dd class="main-works-item-description">
+                    ISBN: 978-4297144036
+                  </dd>
+                  <dd class="main-works-item-description">
+                    共著。クックブック形式でRubyプログラミングにおける実用的な例を紹介している本です。
+                  </dd>
+                </div>
+              </dl>
+              <h4>
+                <i class="fa-solid fa-newspaper main-works-heading-icon"></i>
+                記事
+              </h4>
+              <dl class="main-works-items">
+                <div class="main-works-item">
+                  <dt class="main-works-item-name">
+                    <a href="https://gihyo.jp/magazine/wdpress/archive/2019/vol108" target="_blank">
+                      WEB+DB PRESS Vol.108 特集1<br>
+                      ［効率急上昇！］スキーマ駆動Web API開発
+                      OpenAPI/GraphQLで仕様からコードもテストも作成
+                    </a>
+                  </dt>
+                  <dd class="main-works-item-description">
+                    技術評論社, 2018
+                  </dd>
+                  <dd class="main-works-item-description">
+                    共著。OpenAPIやGraphQLによるスキーマ駆動Web API開発の特集記事を企画／執筆しました。
+                  </dd>
+                </div>
+              </dl>
+            </div>
+            <div class="main-works-writing-item">
+              <h4>
+                <i class="fa-solid fa-rss main-works-heading-icon"></i>
+                ブログ
+              </h4>
+              <dl class="main-works-items">
+                <div class="main-works-item">
+                  <dt class="main-works-item-name">
+                    <a href="https://blog.kymmt.com" target="_blank">
+                      blog.kymmt.com
+                    </a>
+                  </dt>
+                  <dd class="main-works-item-description">
+                    私のブログです。
+                  </dd>
+                </div>
+                <div class="main-works-item">
+                  <dt class="main-works-item-name">
+                    <a href="https://tech.pepabo.com/authors/kymmt/" target="_blank">
+                      kymmtが書いたエントリ - Pepabo Tech Portal
+                    </a>
+                  </dt>
+                  <dd class="main-works-item-description">
+                    GMOペパボのテックブログに書いたエントリです。
+                  </dd>
+                </div>
+                <div class="main-works-item">
+                  <dt class="main-works-item-name">
+                    <a href="https://user-first.ikyu.co.jp/archive/author/kymmt90" target="_blank">
+                      記事一覧 - 一休.com Developers Blog
+                    </a>
+                  </dt>
+                  <dd class="main-works-item-description">
+                    一休の開発者ブログに書いたエントリです。
+                  </dd>
+                </div>
+              </dl>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="main-contact">
+        <div class="container">
+          <h2 class="section-title" id="contact">Contact</h2>
+          <address>
+            <ul class="accounts">
+              <li>
+                <a href="https://github.com/kymmt90" target="_blank">
+                  <i class="fa-brands fa-github"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://linkedin.com/in/kymmt" target="_blank">
+                  <i class="fa-brands fa-linkedin"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://x.com/kymmt90" target="_blank">
+                  <i class="fa-brands fa-x-twitter"></i>
+                </a>
+              </li>
+              <li>
+                <a href="mailto:kymmt90@gmail.com">
+                  <i class="fa-solid fa-envelope"></i>
+                </a>
+              </li>
+            </ul>
+          </address>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <nav class="footer-nav">
+        <ul class="footer-nav-menu">
+          <li><a href="#about">About</a></li>
+          <li><a href="#works">Works</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <p class="footer-copyright">
+        <small>©︎ Kōhei Yamamoto</small>
+      </p>
+    </footer>
+  </body>
+</html>
